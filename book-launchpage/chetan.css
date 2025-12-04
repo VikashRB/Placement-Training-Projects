@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bree serif";
+}
+
+body {
+  background-color: #1b1b1b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container img {
+  height: 55vh;
+  margin-top: 30px;
+}
+
+.book-card {
+  max-width: 600px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.book-card h1 {
+  margin: 15px;
+  text-align: center;
+}
+
+.author-name {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #9aa5b1;
+}
+
+.book-description {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+button {
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: 3px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.back-btn + .buy-now-btn {
+  margin-left: 10px;
+}
+
+.back-btn {
+  background-color: yellow;
+}
+
+.buy-now-btn {
+  background-color: blue;
+  color: white;
+}
