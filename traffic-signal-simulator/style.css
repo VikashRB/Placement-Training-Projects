@@ -1,0 +1,82 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-container {
+  height: 70vh;
+  background-color: black;
+  width: 100px;
+  margin-top: 40px;
+}
+
+.traffic {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-bottom: 100px;
+  margin-left: 15px;
+  padding: 10px;
+} */
+
+/* optimized CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  height: 350px;
+  width: 120px;
+  background: black;
+  padding-top: 20px;
+}
+
+p {
+  height: 80px;
+  width: 80px;
+  margin: 20px auto;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.signals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+}
